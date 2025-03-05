@@ -1,4 +1,10 @@
 # jupyter-docker
+設定環境變數
+```
+export IMAGE_NAME="jupyter_docker"
+export PORT=8888
+```
+
 使用 docker 架設 jupyter
 ```
 docker build -t $IMAGE_NAME .
